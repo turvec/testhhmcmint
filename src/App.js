@@ -1,4 +1,3 @@
-import { ConnectWallet } from "@thirdweb-dev/react";
 import "./styles/Home.css";
 
 export default function Home() {
@@ -6,43 +5,20 @@ export default function Home() {
     <div className="container">
       <main className="main">
         <h1 className="title">
-          Welcome to <a href="https://thirdweb.com/">thirdweb</a>!
+          Welcome to <a href="https://thirdweb.com/">HHMC MINTING PAGE</a>!
         </h1>
 
         <p className="description">
-          Get started by configuring your desired network in{" "}
-          <code className="code">src/index.js</code>, then modify the{" "}
-          <code className="code">src/App.js</code> file!
+          Get started below
         </p>
 
-        <div className="connect">
-          <ConnectWallet />
-        </div>
-
-        <div className="grid">
-          <a href="https://portal.thirdweb.com/" className="card">
-            <h2>Portal &rarr;</h2>
-            <p>
-              Guides, references and resources that will help you build with
-              thirdweb.
-            </p>
-          </a>
-
-          <a href="https://thirdweb.com/dashboard" className="card">
-            <h2>Dashboard &rarr;</h2>
-            <p>
-              Deploy, configure and manage your smart contracts from the
-              dashboard.
-            </p>
-          </a>
-
-          <a href="https://portal.thirdweb.com/templates" className="card">
-            <h2>Templates &rarr;</h2>
-            <p>
-              Discover and clone template projects showcasing thirdweb features.
-            </p>
-          </a>
-        </div>
+        <iframe
+    src="https://gateway.ipfscdn.io/ipfs/QmbqEq5EQLx1aPurZFreM246fsKeawfpKDT8uzguAHAikr/erc721.html?contract=0x967D615057A0f30884dd13e68e2e22B47AEa7033&chainId=80001"
+    width="600px"
+    height="600px"
+    style={{maxWidth: '100%'}}
+    frameborder="0"
+    title="myFrame" ></iframe>
       </main>
     </div>
   );
