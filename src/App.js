@@ -5,7 +5,7 @@ export default function Home() {
     <div className="container">
       <main className="main">
         <h1 className="title">
-          Welcome to <a href="https://thirdweb.com/">HHMC MINTING PAGE</a>!
+          Welcome to <a href="https://hhmc.io/">HHMC MINTING PAGE</a>!
         </h1>
 
         <p className="description">
