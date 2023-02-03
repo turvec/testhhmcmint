@@ -13,7 +13,7 @@ export default function Home() {
         </p>
 
         <iframe
-    src="https://gateway.ipfscdn.io/ipfs/QmbqEq5EQLx1aPurZFreM246fsKeawfpKDT8uzguAHAikr/erc721.html?contract=0x967D615057A0f30884dd13e68e2e22B47AEa7033&chainId=80001"
+    src="https://gateway.ipfscdn.io/ipfs/QmbqEq5EQLx1aPurZFreM246fsKeawfpKDT8uzguAHAikr/erc721.html?contract=0x08d420f70Bf14166730ECf74e71DB8A4b2D0c943&chainId=137"
     width="600px"
     height="600px"
     style={{maxWidth: '100%'}}
